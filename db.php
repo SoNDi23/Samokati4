@@ -1,10 +1,9 @@
 <?php
 $host = 'localhost';
-$db   = 'sonvdajo_samokat';
-// На Beget логин пользователя базы по умолчанию совпадает с именем самой базы
-$user = 'sonvdajo_samokat'; 
-$pass = 'Sosi123!123'; // Укажите пароль, который вы сгенерировали
-$charset = 'utf8mb4';
+$db   = 's';
+$user = 's'; 
+$pass = 'S'; 
+$charset = 'u';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 $options = [
