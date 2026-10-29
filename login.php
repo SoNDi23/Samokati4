@@ -12,7 +12,7 @@ $errors = [];
 $email = '';
 
 // Конфигурация для Яндекс OAuth
-$yandexClientId = '7fa838844b804c11b036e4ac34057fc8'; 
+$yandexClientId = '7'; 
 $yandexRedirectUri = 'https://samokati4.ru/yandex_callback.php';
 $yandexAuthUrl = "https://oauth.yandex.ru/authorize?response_type=code&client_id={$yandexClientId}&redirect_uri=" . urlencode($yandexRedirectUri);
 
