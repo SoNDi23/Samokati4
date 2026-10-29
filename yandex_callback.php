@@ -2,8 +2,8 @@
 session_start();
 require_once 'db.php';
 
-$clientId = '7fa838844b804c11b036e4ac34057fc8';
-$clientSecret = 'a031a38542c641f681083136f3108b11';
+$clientId = '7f';
+$clientSecret = 'a';
 $redirectUri = 'https://samokati4.ru/yandex_callback.php';
 
 if (isset($_GET['code'])) {
