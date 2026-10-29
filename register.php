@@ -2,9 +2,7 @@
 session_start();
 require_once 'db.php';
 
-// Конфигурация для Яндекс OAuth (замените на свои данные после регистрации приложения в Яндексе)
-$yandexClientId = 'ВАШ_CLIENT_ID_ОТ_ЯНДЕКСА'; 
-// Ссылка, куда Яндекс вернет пользователя после авторизации (создадим этот файл следующим)
+$yandexClientId = 'В'; 
 $yandexRedirectUri = 'https://samokati4.ru/yandex_callback.php'; 
 $yandexAuthUrl = "https://oauth.yandex.ru/authorize?response_type=code&client_id={$yandexClientId}&redirect_uri=" . urlencode($yandexRedirectUri);
 
