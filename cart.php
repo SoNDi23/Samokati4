@@ -121,8 +121,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['checkout'])) {
             $pdo->commit();
             
             // Уведомление в Telegram
-            $token = "8980530638:AAEIfBWBTxFOb2NRv1mB2HRV4RuLP5lHvRg";
-            $chat_id = "594139595";
+            $token = "8";
+            $chat_id = "5";
             
             $msg = "🛴 *Новый заказ #$order_id*\n";
             $msg .= "👤 Клиент: $name\n";
